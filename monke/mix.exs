@@ -21,7 +21,10 @@ defmodule Monke.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:alchemy, "~> 0.6.8", hex: :discord_alchemy}
+      {:alchemy, "~> 0.6.8", hex: :discord_alchemy},
+      {:jason, "~> 1.2"},
+      {:httpoison, "~> 1.8"}
+
     ]
   end
 end
