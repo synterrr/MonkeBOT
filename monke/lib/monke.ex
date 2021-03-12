@@ -50,7 +50,7 @@ defmodule Monke do
   end
 
   def start(type, args) do
-    run = Client.start("ODA5NDA4MjI5Njk5MjIzNjAz.YCUqKA.KDiNNVM2pm0ZYqk2QUtHGtlSwRM")
+    run = Client.start("YOUR_TOKEN_HERE")
     use Commands
     run
   end
