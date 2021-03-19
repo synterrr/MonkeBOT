@@ -17,7 +17,7 @@ defmodule Monke do
       temporesposta = Time.diff(Time.utc_now(), tempo, :millisecond)
       %Embed{}
       |> title("Discord API Ping")
-      |> description("The current ping of the API is **#{temporesposta}ms**")
+      |> description("The current ping of the API is **#{temporesposta}MS**")
       |> color(0xc45854)
       |> Embed.send
     end
