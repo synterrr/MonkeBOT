@@ -37,7 +37,7 @@ defmodule Monke do
         {"Elixir Version", System.version()},
         {"Processes", "#{length(:erlang.processes())}"},
         {"Memory Usage", "#{div(:erlang.memory(:total), 1_000_000)} MB"}
-        {"Process ID", "{#System.pid()}"}
+        {"Process ID", System.pid()}
       ]
 
       Enum.reduce(system, %Embed{color: 0xc46236, title: "Monke"}, fn {name, value}, embed ->
