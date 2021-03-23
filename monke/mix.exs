@@ -24,7 +24,6 @@ defmodule Monke.MixProject do
       {:alchemy, "~> 0.6.8", hex: :discord_alchemy},
       {:jason, "~> 1.2"},
       {:httpoison, "~> 1.8"}
-      {:system}
 
     ]
   end
